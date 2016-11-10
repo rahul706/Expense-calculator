@@ -52,8 +52,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 int expense = Integer.valueOf(fuel.getText().toString()) + Integer.valueOf(shopping.getText().toString())
-                        + Integer.valueOf(fuel.getText().toString()) + Integer.valueOf(telephone.getText().toString())
-                        +Integer.valueOf(previousExpense.getText().toString());
+                        + Integer.valueOf(fuel.getText().toString()) + Integer.valueOf(telephone.getText().toString());
 
                 Toast.makeText(MainActivity.this, "your total expense is: " + String.valueOf(expense),Toast.LENGTH_LONG).show();
 

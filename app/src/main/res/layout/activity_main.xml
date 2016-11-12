@@ -34,7 +34,7 @@
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:inputType="textPersonName"
+        android:inputType="number"
         android:ems="10"
         android:layout_alignTop="@+id/txtFood"
         android:layout_toRightOf="@+id/txtFood"
@@ -56,7 +56,7 @@
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:inputType="textPersonName"
+        android:inputType="number"
         android:ems="10"
         android:layout_alignTop="@+id/txtShopping"
         android:layout_alignLeft="@+id/etFood"
@@ -79,7 +79,7 @@
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:inputType="textPersonName"
+        android:inputType="number"
         android:ems="10"
         android:layout_alignTop="@+id/txtFuel"
         android:layout_alignRight="@+id/etFood"
@@ -99,7 +99,7 @@
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:inputType="textPersonName"
+        android:inputType="number"
         android:ems="10"
         android:layout_alignTop="@+id/txtTelephone"
         android:layout_alignLeft="@+id/etFuel"
